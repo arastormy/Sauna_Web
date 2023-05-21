@@ -1,0 +1,164 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+header {
+	background-color: #124dff;
+	padding: 40px 40px;
+}
+
+h1 {
+    margin: 0px;
+    color: #ffffff;
+  }
+
+h2 {
+    margin-bottom: 0px;
+  }
+
+p {
+    margin: 10px 10px;
+    padding: auto;
+    font-size: 18px;
+}
+
+.abstract {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+/* タブを横並びにするための flex レイアウト */
+.tab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* タブボタンを等分するためのスタイル */
+.tab button {
+    background-color: inherit;
+    flex-grow: 1;
+    flex-basis: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 20px;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+}
+
+#graph {
+	width: 500px;
+	height: 300px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.abstract li {
+    margin-left: 20px;
+    font-size: 30px;
+    color: #000000;
+}
+
+#myTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+#myTable th,
+#myTable td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+    white-space: nowrap; /* テキストを折り返さないようにする */
+}
+
+#myTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.button {
+      display       : inline-block;
+      font-size     : 17pt;        /* 文字サイズ */
+      text-align    : center;      /* 文字位置   */
+      cursor        : pointer;     /* カーソル   */
+      padding       : 14px 52px;   /* 余白       */
+      margin-left   : 100px;
+      background    : #124dff;     /* 背景色     */
+      color         : #ffffff;     /* 文字色     */
+      line-height   : 1em;         /* 1行の高さ  */
+      transition    : .3s;         /* なめらか変化 */
+      box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+      border        : 2px solid #124dff;    /* 枠の指定 */
+}
+
+.button:hover {
+      box-shadow    : none;        /* カーソル時の影消去 */
+      color         : #124dff;     /* 背景色     */
+      background    : #ffffff;     /* 文字色     */
+}
+
+.checkbox-container label {
+    margin-right: 6px;
+}
+
+.example{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.result-fig {
+    border: 1px solid black;
+    padding: 5px;
+    width: 80%;
+    display: inline-block;
+}
+
+.result-text li {
+    margin-left: 20px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.itemization li {
+    margin-left: 18px;
+}
